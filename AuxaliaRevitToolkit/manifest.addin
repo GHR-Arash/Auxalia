@@ -1,24 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <RevitAddIns>
+  
   <AddIn Type="Application">
     <Name>Auxalia</Name>
     <Assembly>"C:\Users\Arash\Desktop\Auxalia\AuxaliaRevitToolkit\AuxaliaRevitToolkit\bin\Debug\AuxaliaRevitToolkit.dll"</Assembly>
     <AddInId>DA7DBE6F-AA51-4031-9A72-3DB15FF09670</AddInId>
     <VendorId>YourVendorId</VendorId>
     <VendorDescription>YourVendorDescription</VendorDescription>
-    <FullClassName>AuxaliaRevitToolkit.Application.App</FullClassName>
+    <FullClassName>RevitApp</FullClassName>
   </AddIn>
+  
   <AddIn Type="Command">
-    <Name>Arash Plugin</Name>
+    <Name>Level Management</Name>
     <Assembly>"C:\Users\Arash\Desktop\Auxalia\AuxaliaRevitToolkit\AuxaliaRevitToolkit\bin\Debug\AuxaliaRevitToolkit.dll"</Assembly>
     <AddInId>add82dde-cd56-452e-9aa7-03e299551e00</AddInId>
     <VendorId>YourVendorId</VendorId>
     <VendorDescription>YourVendorDescription</VendorDescription>
-    <FullClassName>AuxaliaRevitToolkit.Commands.ExampleCommand</FullClassName>
+    <FullClassName>AuxaliaRevitToolkit.Commands.LevelManagementCommand</FullClassName>
     <VisibilityMode>AlwaysVisible</VisibilityMode>
-    <Discipline>DisciplineGroup</Discipline>
-    <Panel>Auxalia</Panel>
-    <Text>CommandDisplayName</Text>
+    <Panel>Auxalia General</Panel>
+    <Text>Level Management</Text>
     <ToolTip>CommandToolTip</ToolTip>
   </AddIn>
+
+  <AddIn Type="Command">
+    <Name>Center an Element</Name>
+    <Assembly>"C:\Users\Arash\Desktop\Auxalia\AuxaliaRevitToolkit\AuxaliaRevitToolkit\bin\Debug\AuxaliaRevitToolkit.dll"</Assembly>
+    <AddInId>069250dc-f3f5-40a1-acf9-bc0b0478356b</AddInId>
+    <VendorId>YourVendorId</VendorId>
+    <VendorDescription>YourVendorDescription</VendorDescription>
+    <FullClassName>AuxaliaRevitToolkit.Commands.CenterElementCommand</FullClassName>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Panel>Auxalia General</Panel>
+    <Text>Center an Element</Text>
+    <ToolTip>CommandToolTip</ToolTip>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Name>Adjust Radiotor Width</Name>
+    <Assembly>"C:\Users\Arash\Desktop\Auxalia\AuxaliaRevitToolkit\AuxaliaRevitToolkit\bin\Debug\AuxaliaRevitToolkit.dll"</Assembly>
+    <AddInId>967832dd-262c-446c-8738-12027d3f81b1    </AddInId>
+    <VendorId>YourVendorId</VendorId>
+    <VendorDescription>YourVendorDescription</VendorDescription>
+    <FullClassName>AuxaliaRevitToolkit.Commands.AdjustRadiatorCommand</FullClassName>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Panel>Auxalia General</Panel>
+    <Text>Adjust Radiator Width</Text>
+    <ToolTip>CommandToolTip</ToolTip>
+  </AddIn>
+  
 </RevitAddIns>
