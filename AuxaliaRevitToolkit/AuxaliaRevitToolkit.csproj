@@ -167,10 +167,6 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="16icon.png" />
-    <Content Include="32icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="src\Views\LevelManagementView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -40,6 +40,7 @@ namespace AuxaliaRevitToolkit.Services
                             Name = revitLevel.Name,
                             Elevation = revitLevel.Elevation,
                             // BasePoint property needs to be set based on your requirements
+                            //BasePoint=LevelModel.BasePointEnum.ProjectBasePoint
                         };
                         levels.Add(levelModel);
                     }
