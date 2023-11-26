@@ -1,5 +1,7 @@
-[Bb]in/
-[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
 **/[Dd]ebug/
 **/[Rr]elease/
 AuxaliaRevitToolkit/
+
+
