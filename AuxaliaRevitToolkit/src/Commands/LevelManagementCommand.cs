@@ -5,6 +5,7 @@ using AuxaliaRevitToolkit.Utilities;
 using AuxaliaRevitToolkit.ViewModels;
 using AuxaliaRevitToolkit.Views;
 using Microsoft.Extensions.DependencyInjection;
+using System.Windows;
 
 namespace AuxaliaRevitToolkit.Commands
 {
@@ -19,6 +20,7 @@ namespace AuxaliaRevitToolkit.Commands
             uiAppWrapper.UIApplication = commandData.Application;
 
             var view = RevitApp.GlobalServiceProvider.GetService<LevelManagementView>();
+            view.WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
             // Show the view or perform other actions as required
             view.ShowDialog();

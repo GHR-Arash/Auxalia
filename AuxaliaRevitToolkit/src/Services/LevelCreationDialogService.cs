@@ -10,7 +10,7 @@ namespace AuxaliaRevitToolkit.Services
             levelName = string.Empty;
             levelElevation = 0.0;
 
-            var dialog = new NewLevelDialog();
+            var dialog = new NewLevelDialog() { WindowStartupLocation = WindowStartupLocation.CenterScreen };
             var result = dialog.ShowDialog();
 
             if (result == true)

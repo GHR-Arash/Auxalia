@@ -22,7 +22,7 @@
         <!-- Data Grid for displaying levels -->
         <DataGrid x:Name="LevelsDataGrid"
                   ItemsSource="{Binding Levels}"
-                  SelectedItem="{Binding SelectedLevel}"
+                  SelectedItem="{Binding SelectedLevel, Mode=TwoWay}"
                   AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>

@@ -5,6 +5,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows;
 
@@ -22,7 +23,11 @@ namespace AuxaliaRevitToolkit.ViewModels
         public LevelViewModel SelectedLevel
         {
             get => _selectedLevel;
-            set => SetProperty(ref _selectedLevel, value);
+            set
+            {
+                SetProperty(ref _selectedLevel, value);
+                DeleteLevelCommand.NotifyCanExecuteChanged();
+            }
         }
 
         private ObservableCollection<LevelViewModel> _levels;
@@ -58,6 +63,10 @@ namespace AuxaliaRevitToolkit.ViewModels
                     BasePoint = l.BasePoint
                 }));
             OnPropertyChanged(nameof(Levels)); // Notify that the Levels property has changed
+
+
+            Debug.WriteLine($"Initial SelectedLevel: {SelectedLevel}");
+
         }
 
         private void ExecuteCreateLevel()
@@ -88,7 +97,6 @@ namespace AuxaliaRevitToolkit.ViewModels
                 }
             }
         }
-
         private bool CanExecuteDeleteLevel() => SelectedLevel != null;
     }
 }

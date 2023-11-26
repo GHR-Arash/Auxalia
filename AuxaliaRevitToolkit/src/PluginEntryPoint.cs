@@ -14,7 +14,7 @@ public class RevitApp : IExternalApplication
     public Result OnStartup(UIControlledApplication application)
     {
         // Launch the debugger
-        System.Diagnostics.Debugger.Launch();
+        //System.Diagnostics.Debugger.Launch();
 
         var services = new ServiceCollection();
         ConfigureServices(services);
