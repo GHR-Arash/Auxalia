@@ -1,7 +1,7 @@
-**/[Bb]in/
-**/[Oo]bj/
-**/[Dd]ebug/
-**/[Rr]elease/
-AuxaliaRevitToolkit/
+AuxaliaRevitToolkit/[Bb]in/
+AuxaliaRevitToolkit/[Oo]bj/
+AuxaliaRevitToolkit/**/[Dd]ebug/
+AuxaliaRevitToolkit/**/[Rr]elease/
+
 
 
