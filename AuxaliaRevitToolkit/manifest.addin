@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Auxalia</Name>
+    <Assembly>"C:\Users\Arash\Desktop\Auxalia\AuxaliaRevitToolkit\AuxaliaRevitToolkit\bin\Debug\AuxaliaRevitToolkit.dll"</Assembly>
+    <AddInId>DA7DBE6F-AA51-4031-9A72-3DB15FF09670</AddInId>
+    <VendorId>YourVendorId</VendorId>
+    <VendorDescription>YourVendorDescription</VendorDescription>
+    <FullClassName>AuxaliaRevitToolkit.Application.App</FullClassName>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>Arash Plugin</Name>
+    <Assembly>"C:\Users\Arash\Desktop\Auxalia\AuxaliaRevitToolkit\AuxaliaRevitToolkit\bin\Debug\AuxaliaRevitToolkit.dll"</Assembly>
+    <AddInId>add82dde-cd56-452e-9aa7-03e299551e00</AddInId>
+    <VendorId>YourVendorId</VendorId>
+    <VendorDescription>YourVendorDescription</VendorDescription>
+    <FullClassName>AuxaliaRevitToolkit.Commands.ExampleCommand</FullClassName>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Discipline>DisciplineGroup</Discipline>
+    <Panel>Auxalia</Panel>
+    <Text>CommandDisplayName</Text>
+    <ToolTip>CommandToolTip</ToolTip>
+  </AddIn>
+</RevitAddIns>
