@@ -1,6 +1,7 @@
 /*
 !/.gitignore
 !/AuxaliaRevitToolkit
+!/AuxaliaRevitToolkit.sln
 AuxaliaRevitToolkit/[Bb]in/
 AuxaliaRevitToolkit/[Oo]bj/
 

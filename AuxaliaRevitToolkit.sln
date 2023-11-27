@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxaliaRevitToolkit", "AuxaliaRevitToolkit\AuxaliaRevitToolkit.csproj", "{A45D44DA-A259-4150-A03C-4C0694BFF738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45D44DA-A259-4150-A03C-4C0694BFF738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45D44DA-A259-4150-A03C-4C0694BFF738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45D44DA-A259-4150-A03C-4C0694BFF738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45D44DA-A259-4150-A03C-4C0694BFF738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF6585AD-05FD-4074-835D-7A50625F4BD0}
+	EndGlobalSection
+EndGlobal
