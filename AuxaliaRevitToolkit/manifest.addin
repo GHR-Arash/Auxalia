@@ -42,7 +42,7 @@
     <AddInId>967832dd-262c-446c-8738-12027d3f81b1    </AddInId>
     <VendorId>YourVendorId</VendorId>
     <VendorDescription>YourVendorDescription</VendorDescription>
-    <FullClassName>AuxaliaRevitToolkit.Commands.AdjustRadiatorCommand</FullClassName>
+    <FullClassName>AuxaliaRevitToolkit.Commands.AdjustRadiatorWidthCommand</FullClassName>
     <VisibilityMode>AlwaysVisible</VisibilityMode>
     <Panel>Auxalia General</Panel>
     <Text>Adjust Radiator Width</Text>
